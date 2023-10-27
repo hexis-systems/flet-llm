@@ -1,0 +1,6 @@
+build/
+dist/
+model.gguf
+*.spec
+*.icns
+.DS_Store
