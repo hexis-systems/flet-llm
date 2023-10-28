@@ -1,3 +1,5 @@
 flet
 langstream
 llama_cpp_python
+pyinstaller
+pillow

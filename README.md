@@ -21,12 +21,12 @@ we care a lot about efficiency but didn't want to go fully native, as we wanted 
 
 ```
 git clone https://github.com/hexis-systems/llm-stack && cd llm-stack
-pip install --no-deps -r requirements.txt
+pip install -r requirements.txt
 flet pack app.py --add-binary="$PYTHONPATH/llama_cpp/$LIBLLAMA:llama_cpp"
 ```
 `PYTHONPATH` should be the `site-packages` directory for your current interpreter/environment. `LIBLLAMA` is the shared library's file name - libllama.dylib/.dll/.so - depending on the platform.
 
-On macos you'll need a "framework" install of python. installers from python.org and homebrew are fine. if you're using `pyenv`, do the following:
+on macos you'll need a "framework" install of python. installers from python.org and homebrew are fine. if you're using `pyenv`, do the following:
 
 ```
 PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.10.9
