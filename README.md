@@ -1,5 +1,5 @@
 
-<img src="assets/screencast.gif">
+https://github.com/hexis-systems/llm-stack/assets/124044523/0cfbde8a-db13-4bc4-84d4-988f185ab5f2
 
 # llm-stack
 
