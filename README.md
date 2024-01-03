@@ -1,9 +1,7 @@
 
-https://github.com/hexis-systems/flet-llm/assets/124044523/0cfbde8a-db13-4bc4-84d4-988f185ab5f2
-
 # flet-llm
 
-efficient multi-platform stack for LLM-based UI applications.
+include GGML models in your flet/flutter applications.
 
 # components
 
