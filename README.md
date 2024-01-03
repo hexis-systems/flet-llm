@@ -26,6 +26,10 @@ on macos you'll need a "framework" install of python. installers from python.org
 PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.10.9
 ```
 
+## cross platform build
+
+have a look at the included workflows for github actions.
+
 # showcase
 
 apps built using flet-llm
