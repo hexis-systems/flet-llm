@@ -1,26 +1,22 @@
 
-https://github.com/hexis-systems/llm-stack/assets/124044523/0cfbde8a-db13-4bc4-84d4-988f185ab5f2
+https://github.com/hexis-systems/flet-llm/assets/124044523/0cfbde8a-db13-4bc4-84d4-988f185ab5f2
 
-# llm-stack
+# flet-llm
 
 efficient multi-platform stack for LLM-based UI applications.
 
 # components
 
-> wait - this is just a small hello world app. how can this be a stack?
-
-it includes all the components to build out a stack at scale.
+these components can be used to build UI applications for any desktop platform or web, using one code base.
 
 - `llama.cpp`/`ggml`: has been spearheading developments in the open source/local LLM space and is swiftly becoming a full-featured and scalable LLM server. [docs](https://llama-cpp-python.readthedocs.io)
 - `langstream`: small prompting framework with little boilerplate that allows for creative wiring up of action-chains. [docs](https://rogeriochaves.github.io/langstream)
 - `flet`: pythonic UI framework based on flutter. deploys to any platform including as scalable web applications. [docs](https://flet.dev/docs)
 
-we care a lot about efficiency but didn't want to go fully native, as we wanted a single codebase that is efficient _and_ as versatile as possible.
-
 # build
 
 ```
-git clone https://github.com/hexis-systems/llm-stack && cd llm-stack
+git clone https://github.com/hexis-systems/flet-llm && cd flet-llm
 pip install -r requirements.txt
 flet pack app.py --add-binary="$PYTHONPATH/llama_cpp/$LIBLLAMA:llama_cpp"
 ```
@@ -34,7 +30,7 @@ PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.10.9
 
 # showcase
 
-apps built using llm-stack
+apps built using flet-llm
 
 - [spica](https://hexis.systems/spica): minimalistic multi-platform UI for local LLMs
 
